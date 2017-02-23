@@ -341,6 +341,12 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3211d5b52185753409aeb4599925b1a0, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &273419248 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114978214958534620, guid: 3211d5b52185753409aeb4599925b1a0,
+    type: 2}
+  m_PrefabInternal: {fileID: 273419247}
+  m_Script: {fileID: 11500000, guid: 043e03ee94b2b024c9a555b0d70cb5b1, type: 3}
 --- !u!114 &294159636
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1425,12 +1431,12 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
-          m_MethodName: 
-          m_Mode: 1
+        - m_Target: {fileID: 273419248}
+          m_MethodName: OnGroundClick
+          m_Mode: 0
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: 
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
