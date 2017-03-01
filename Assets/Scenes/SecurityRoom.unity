@@ -167,10 +167,10 @@ Prefab:
     - target: {fileID: 11485606, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 273419250}
     - target: {fileID: 11485606, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
+      value: OnInteractableClick
       objectReference: {fileID: 0}
     - target: {fileID: 11485606, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -338,10 +338,15 @@ Prefab:
       propertyPath: m_RootOrder
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 114978214958534620, guid: 3211d5b52185753409aeb4599925b1a0,
+        type: 2}
+      propertyPath: turnSpeedThreshold
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3211d5b52185753409aeb4599925b1a0, type: 2}
   m_IsPrefabParent: 0
---- !u!114 &273419248 stripped
+--- !u!114 &273419250 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114978214958534620, guid: 3211d5b52185753409aeb4599925b1a0,
     type: 2}
@@ -1431,7 +1436,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 273419248}
+        - m_Target: {fileID: 273419250}
           m_MethodName: OnGroundClick
           m_Mode: 0
           m_Arguments:
